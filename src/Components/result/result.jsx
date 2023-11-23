@@ -41,28 +41,28 @@ const Result = ({ imc }) => {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td className={categoria === "Abaixo do Peso" ? "bg-primary" : ""}>&lt; 18.5</td>
-                                    <td className={categoria === "Abaixo do Peso" ? "bg-primary" : ""}>Abaixo do Peso</td>
+                                    <td className={categoria === "Abaixo do Peso" ? "bg-primary fw-bold" : ""}>&lt; 18.5</td>
+                                    <td className={categoria === "Abaixo do Peso" ? "bg-primary fw-bold" : ""}>Abaixo do Peso</td>
                                 </tr>
                                 <tr >
-                                    <td className={categoria === "Normal" ? "bg-primary" : ""}>18.5 - 24.9</td>
-                                    <td className={categoria === "Normal" ? "bg-primary" : ""}>Normal</td>
+                                    <td className={categoria === "Normal" ? "bg-primary fw-bold" : ""}>18.5 - 24.9</td>
+                                    <td className={categoria === "Normal" ? "bg-primary fw-bold" : ""}>Normal</td>
                                 </tr>
                                 <tr>
-                                    <td className={categoria === "Sobrepeso" ? "bg-primary" : ""}>25 - 29.9</td>
-                                    <td className={categoria === "Sobrepeso" ? "bg-primary" : ""}>Sobrepeso</td>
+                                    <td className={categoria === "Sobrepeso" ? "bg-primary fw-bold" : ""}>25 - 29.9</td>
+                                    <td className={categoria === "Sobrepeso" ? "bg-primary fw-bold" : ""}>Sobrepeso</td>
                                 </tr>
                                 <tr >
-                                    <td className={categoria === "Obesidade Grau 1" ? "bg-primary" : ""}>30 - 34.9</td>
-                                    <td className={categoria === "Obesidade Grau 1" ? "bg-primary" : ""}>Obesidade Grau 1</td>
+                                    <td className={categoria === "Obesidade Grau 1" ? "bg-primary fw-bold" : ""}>30 - 34.9</td>
+                                    <td className={categoria === "Obesidade Grau 1" ? "bg-primary fw-bold" : ""}>Obesidade Grau 1</td>
                                 </tr>
                                 <tr>
-                                    <td className={categoria === "Obesidade Grau 2" ? "bg-primary" : ""}>35 - 39.9</td>
-                                    <td className={categoria === "Obesidade Grau 2" ? "bg-primary" : ""}>Obesidade Grau 2</td>
+                                    <td className={categoria === "Obesidade Grau 2" ? "bg-primary fw-bold" : ""}>35 - 39.9</td>
+                                    <td className={categoria === "Obesidade Grau 2" ? "bg-primary fw-bold" : ""}>Obesidade Grau 2</td>
                                 </tr>
                                 <tr>
-                                    <td className={categoria === "Obesidade Grau 3" ? "bg-primary" : ""}>&gt;= 40</td>
-                                    <td className={categoria === "Obesidade Grau 3" ? "bg-primary" : ""}>Obesidade Grau 3</td>
+                                    <td className={categoria === "Obesidade Grau 3" ? "bg-primary fw-bold" : ""}>&gt;= 40</td>
+                                    <td className={categoria === "Obesidade Grau 3" ? "bg-primary fw-bold" : ""}>Obesidade Grau 3</td>
                                 </tr>
                             </tbody>
                         </table>
